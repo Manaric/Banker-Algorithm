@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class TheBanker2
+public class TheBanker_test
 {
     static int NUMBER_OF_CUSTOMERS, NUMBER_OF_RESOURCES;
     static int[] AVAILABLE;

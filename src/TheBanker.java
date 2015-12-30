@@ -11,7 +11,13 @@ public class TheBanker
     
     public static void main(String[] args) throws InterruptedException
     {
-        // create new thread pool with two threads
+        if(args.length < 1) //If no parameters where introduced
+		{
+			System.out.println("No parameters where added. Application close.");
+			System.exit(0);
+		}
+		
+		// create new thread pool with two threads
         ExecutorService executorService = Executors.newCachedThreadPool();
 
         //Set values of the arrays
