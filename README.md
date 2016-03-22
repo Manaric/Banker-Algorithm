@@ -1,4 +1,5 @@
 # Banker-Algorithm
+[![Build Status](https://travis-ci.org/yamilelias/Banker-Algorithm.svg?branch=master)](https://travis-ci.org/yamilelias/Banker-Algorithm)
 The famous Banker Algorithm to prevent deadlock. This application run with threads the different client request. This application will run by **Edsger Dijkstra** simulation like the one in [Wikipedia](https://en.wikipedia.org/wiki/Banker%27s_algorithm). As a parameter you need to pass how much resources and their quantity you want to use. For example let's use 3 resources:
 - Resource A: 3
 - Resource B: 5
